@@ -3,6 +3,7 @@ This repository contains an overview of the publicly available resources of my b
 
 - Thesis title: Design and implementation of a stealthy OpenWPM web scraper
 - Supervisor: Dr. Ir. Hugo Jonker
+- University and program: Radboud University, NL, [computing science](https://www.ru.nl/english/education/bachelors/computing-science/)
 
 ## Source code
 - [Stealth version of OpenWPM](https://github.com/Flnch/OpenWPM/tree/issue-448-webdriver_attr) (on the git branch `issue-448-webdriver_attr`)
@@ -20,5 +21,7 @@ This repository contains an overview of the publicly available resources of my b
 ## Used tools
 - [BrowserBasedBotFP](https://github.com/bkrumnow/BrowserBasedBotFP): Framework to measure bot detection related fingerprinting properties ([corresponding paper](http://www.open.ou.nl/hjo/papers/ESORICS19.pdf))
 - [JavaScript template attacks](https://github.com/IAIK/jstemplate): Framework to measure JavaScript differences betweeen browser environments ([corresponding paper](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_01B-4_Schwarz_paper.pdf))
+- [BDScanner (fork)](https://github.com/Flnch/BDScanner): Framework using OpenWPM to analyze URLs for their bot detection activity ([corresponding paper](http://www.open.ou.nl/hjo/papers/ESORICS19.pdf))  
+  (In my fork, the software dependencies are updated to the newest version)
 
-They run on the same ports but that can be changed.
+`BrowserBasedBotFP` and `JavaScript template attacks` run on the same ports but that can be changed to run them at the same time.
