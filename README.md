@@ -6,9 +6,11 @@ This repository contains an overview of the publicly available resources of my b
 - University and program: Radboud University, NL, [computing science](https://www.ru.nl/english/education/bachelors/computing-science/)
 
 ## Source code
-- [Stealth version of OpenWPM](https://github.com/Flnch/OpenWPM/tree/issue-448-webdriver_attr) (on the git branch `issue-448-webdriver_attr`)
-- [OpenWPM measurement version](https://github.com/Flnch/OpenWPM/tree/measurement) (on the git branch `measurement`)
+- [Stealth version of OpenWPM](https://github.com/Flnch/OpenWPM/tree/issue-448-webdriver_attr) (on the git branch `issue-448-webdriver_attr`*)
+- [OpenWPM measurement version](https://github.com/Flnch/OpenWPM/tree/measurement) (on the git branch `measurement`*)
 - [webdriver testpage](https://github.com/Flnch/webdriver-testpage): A simple test page to test whether the original value of spoofed `window.navigator` objects can be revealed inside iframes.
+
+\*: Note after changing the branch it is necessary to rebuild OpenWPM's instrumentation extension (run `build-extension.sh`) to resemble the code version of the changed branch.
 
 ## Results/data
 - `results/BrowserBasedBotFP` contains the data captured with the BrowserBasedBotFP tool.  
