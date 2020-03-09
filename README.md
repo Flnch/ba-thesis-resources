@@ -7,6 +7,7 @@ This repository contains an overview of the publicly available resources of my b
 
 ## Source code
 - [Stealth version of OpenWPM](https://github.com/Flnch/OpenWPM/tree/issue-448-webdriver_attr) (on the git branch `issue-448-webdriver_attr`*)
+  - The main addition of the stealth version is spoofing a revealing JavaScript property. This spoofing functionality is also available as a [stand-alone Firefox extension](https://github.com/Flnch/stealth-extension).
 - [OpenWPM measurement version](https://github.com/Flnch/OpenWPM/tree/measurement) (on the git branch `measurement`*)
 - [webdriver testpage](https://github.com/Flnch/webdriver-testpage): A simple test page to test whether the original value of spoofed `window.navigator` objects can be revealed inside iframes.
 
