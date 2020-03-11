@@ -20,6 +20,7 @@ This repository contains an overview of the publicly available resources of my b
 - `results/jstemplate` contains the data captured with the JavaScript template attack tool.  
   For easy inspection and comparisons, rename a measurement file to `data.json` and open it with the JavaScript template framework.
   - `data[measurement-chapter].json`: Data from the experiment in the measurement chapter
+- `analysisOfHTTPHeader.pcapng` contains Wireshark captures of different browser and automation combinations to investigate the attribute order inside the HTTP packets.
 
 ## Used tools
 - [BrowserBasedBotFP](https://github.com/bkrumnow/BrowserBasedBotFP): Framework to measure bot detection related fingerprinting properties ([corresponding paper](http://www.open.ou.nl/hjo/papers/ESORICS19.pdf))
