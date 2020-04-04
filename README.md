@@ -6,10 +6,10 @@ This repository contains an overview of the publicly available resources of my b
 - University and program: Radboud University, NL, [computing science](https://www.ru.nl/english/education/bachelors/computing-science/)
 
 ## Source code
-- [Stealth version of OpenWPM](https://github.com/Flnch/OpenWPM/tree/issue-448-webdriver_attr) (on the git branch `issue-448-webdriver_attr`*)
-  - The main addition of the stealth version is spoofing a revealing JavaScript property. This spoofing functionality is also available as a [stand-alone Firefox extension](https://github.com/Flnch/stealth-extension).
-- [OpenWPM measurement version](https://github.com/Flnch/OpenWPM/tree/measurement) (on the git branch `measurement`*)
-- [webdriver testpage](https://github.com/Flnch/webdriver-testpage): A simple test page to test whether the original value of spoofed `window.navigator` objects can be revealed inside iframes.
+- [Stealth version of OpenWPM](https://github.com/Flnch/OpenWPM/tree/issue-448-webdriver_attr) (on the git branch `issue-448-webdriver_attr`; [access exact version used in the thesis](https://github.com/Flnch/OpenWPM/tree/84e4b4811b4bcc8dca4f817e18252d97c850a02d)*)
+  - The main addition of the stealth version is spoofing a revealing JavaScript property. This spoofing functionality is also available as a [stand-alone Firefox extension](https://github.com/Flnch/stealth-extension) ([access exact version used in the thesis](https://github.com/Flnch/stealth-extension/tree/b52ac5a20706b7b7c1ddcc9e38c8a96e059552a0)).
+- [OpenWPM measurement version](https://github.com/Flnch/OpenWPM/tree/measurement) (on the git branch `measurement`; [access exact version used in the thesis](https://github.com/Flnch/OpenWPM/tree/9a9a7c4274ae1b1ee869dd647bbb76158eba1427)*)
+- [webdriver testpage](https://github.com/Flnch/webdriver-testpage) ([access exact version used in the thesis](https://github.com/Flnch/webdriver-testpage/tree/87393fb3e14ac50229fcb0bd855406828b7112d5)): A simple test page to test whether the original value of spoofed `window.navigator` objects can be revealed inside iframes.
 
 \*: Note after changing the branch it is necessary to rebuild OpenWPM's instrumentation extension (run `build-extension.sh`) to resemble the code version of the changed branch.
 
