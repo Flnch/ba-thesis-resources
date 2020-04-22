@@ -1,7 +1,7 @@
 # Bachelor thesis resource overview
 This repository contains an overview of the publicly available resources of my bachelor thesis, such as source code or results.
 
-- Thesis title: Design and implementation of a stealthy OpenWPM web scraper
+- Thesis title: Design and implementation of a stealthy OpenWPM web scraper ([link to PDF](http://cs.ru.nl/bachelors-theses/2020/Daniel_Go%C3%9Fen___4751051___Design_and_implementation_of_a_stealthy_OpenWPM_web_scraper.pdf))
 - Supervisor: Dr. Ir. Hugo Jonker
 - University and program: Radboud University, NL, [computing science](https://www.ru.nl/english/education/bachelors/computing-science/)
 
